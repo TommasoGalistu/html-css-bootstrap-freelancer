@@ -32,7 +32,7 @@ main{
 }
 
 /* prima sezione head */
-.sezioneUnoHead{
+.sezioneColore{
     background-color: var(--coloreMainHead);
 }
 
