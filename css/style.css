@@ -40,3 +40,14 @@ main{
     margin-top: 2rem;
     width: 50%;
 }
+
+
+/* quarta sezione */
+.sezioneQuattro input{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.sezioneQuattro button{
+    margin-top: 1rem;
+}
