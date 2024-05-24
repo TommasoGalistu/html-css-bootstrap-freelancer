@@ -1,7 +1,7 @@
 /* debug per visualizzare la struttura*/
-[class*=container]{
+/* [class*=container]{
     min-height: 3rem;
-    background-color: black;
+    background-color: rgb(116, 111, 111);
     border: 1px solid red;
 }
 [class*=row]{
@@ -12,7 +12,7 @@
 [class*=col]{
     background-color: rgba(255, 0, 0, 0.541);
     border: 1px solid white;
-}
+} */
 
 
 /* style personale della pagina */
@@ -26,6 +26,16 @@ header .row{
     height: var(--altezzaHeader);
 }
 
+header h3, h1{
+    color: white;
+    font-weight: 600;
+}
+header .btn-secondary{
+    background-color: var(--coloreHeader);
+    border: 1px solid grey;
+    color: grey;
+}
+
 /* inizio main */
 main{
     padding-top: var(--altezzaHeader);
@@ -36,9 +46,30 @@ main{
     background-color: var(--coloreMainHead);
 }
 
-.sezioneUnoHead .contImmagine{
+.sezioneColore .contImmagine{
     margin-top: 2rem;
-    width: 50%;
+    height: 20rem;
+}
+
+.contImmagine img{
+    height: 100%;
+}
+
+.fa-star{
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    color: var(--colorStar);
+}
+
+main p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.barra{
+    height: 3px;
+    width: 3rem;
+    background-color: white;
 }
 
 
@@ -50,4 +81,10 @@ main{
 
 .sezioneQuattro button{
     margin-top: 1rem;
+}
+
+/* inizio footer */
+footer{
+    width: 100%;
+    background-color: var(--coloreFooter);
 }
