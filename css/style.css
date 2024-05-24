@@ -6,20 +6,37 @@
 }
 [class*=row]{
     
-    background-color: green;
+    background-color: rgba(255, 255, 255, 0.537);
     border: 1px solid white;
 }
 [class*=col]{
-    background-color: rgba(0, 0, 255, 0.3);
+    background-color: rgba(255, 252, 252, 0.558);
     border: 1px solid white;
 }
 
 
 /* style personale della pagina */
 header{
+    position: fixed;
     width: 100%;
     background-color: var(--coloreHeader);
 }
+
 header .row{
-    height: 112px;
+    height: var(--altezzaHeader);
+}
+
+/* inizio main */
+main{
+    padding-top: var(--altezzaHeader);
+}
+
+/* prima sezione head */
+.sezioneUnoHead{
+    background-color: var(--coloreMainHead);
+}
+
+.contImmagine{
+    margin-top: 2rem;
+    width: 50%;
 }
