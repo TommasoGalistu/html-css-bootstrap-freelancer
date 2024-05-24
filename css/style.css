@@ -53,24 +53,50 @@ main{
 
 .contImmagine img{
     height: 100%;
+    
 }
 
+.barra{
+    height: 3px;
+    width: 3rem;
+    
+}
 .fa-star{
     font-size: 2rem;
     padding: 0 0.5rem;
+}
+.fa-star.white{
+    
     color: var(--colorStar);
 }
+
+.barra.white{
+    background-color: var(--colorStar);
+}
+
+.fa-star.black{
+    color: var(--altezzaHeader);
+}
+.barra.black{
+    background-color: var(--coloreHeader);
+}
+
 
 main p{
     font-size: 1.3rem;
     color: white;
 }
 
-.barra{
-    height: 3px;
-    width: 3rem;
-    background-color: white;
+.secondaSezione .contImmagine{
+    width: 100%;
+    
 }
+.secondaSezione img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
 
 
 /* quarta sezione */
