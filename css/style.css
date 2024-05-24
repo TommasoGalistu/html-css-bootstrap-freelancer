@@ -10,7 +10,7 @@
     border: 1px solid white;
 }
 [class*=col]{
-    background-color: rgba(255, 252, 252, 0.558);
+    background-color: rgba(255, 0, 0, 0.541);
     border: 1px solid white;
 }
 
@@ -36,7 +36,7 @@ main{
     background-color: var(--coloreMainHead);
 }
 
-.contImmagine{
+.sezioneUnoHead .contImmagine{
     margin-top: 2rem;
     width: 50%;
 }
