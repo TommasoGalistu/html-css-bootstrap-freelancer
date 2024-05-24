@@ -1,0 +1,25 @@
+/* debug per visualizzare la struttura*/
+[class*=container]{
+    min-height: 3rem;
+    background-color: black;
+    border: 1px solid red;
+}
+[class*=row]{
+    
+    background-color: green;
+    border: 1px solid white;
+}
+[class*=col]{
+    background-color: rgba(0, 0, 255, 0.3);
+    border: 1px solid white;
+}
+
+
+/* style personale della pagina */
+header{
+    width: 100%;
+    background-color: var(--coloreHeader);
+}
+header .row{
+    height: 112px;
+}
