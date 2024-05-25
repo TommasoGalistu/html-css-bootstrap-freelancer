@@ -102,6 +102,7 @@ main p{
 /* terza serie */
 .sezioneColore.terza button{
     color: white;
+    
     border: 1px solid white;
 }
 
@@ -122,10 +123,44 @@ main p{
 
 .sezioneQuattro button{
     margin-top: 1rem;
+    background-color: #1abc9c;
+    border: none;
+
 }
 
 /* inizio footer */
 footer{
     width: 100%;
     background-color: var(--coloreFooter);
+    color: white;
+}
+
+footer .contImmagine{
+    height: 2.5rem;
+    width: 2.5rem;
+    
+    border-radius: 50%;
+    align-content: center;
+    border: 1px solid rgb(203, 203, 203);
+}
+footer i{
+    align-content: center;
+    /* padding: 1rem; */
+    
+    /* height: 1.5rem;
+    width: 1.5rem; */
+    border-radius: 50%;
+}
+
+footer a{
+    color: #1abc9c;
+}
+
+footer .personalContainer{
+    width: 100%;
+    height: 7rem;
+}
+
+footer .backgroundSecondFooter{
+    background-color: var(--colorSecondFooter);
 }
