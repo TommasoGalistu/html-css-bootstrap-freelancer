@@ -107,9 +107,17 @@ main p{
 
 
 /* quarta sezione */
+.sezioneQuattro h2{
+    font-size: 3rem;
+}
 .sezioneQuattro input{
     border: none;
     border-bottom: 1px solid grey;
+
+}
+
+.grey{
+    color: rgb(91, 91, 91);
 }
 
 .sezioneQuattro button{
