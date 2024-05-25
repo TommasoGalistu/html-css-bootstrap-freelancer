@@ -20,6 +20,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: var(--coloreHeader);
+    color: white;
 }
 
 header .row{
@@ -35,6 +36,17 @@ header .btn-secondary{
     border: 1px solid grey;
     color: grey;
 }
+
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li{
+    padding: 0 0.5rem;
+}
+
+
 
 /* inizio main */
 main{
