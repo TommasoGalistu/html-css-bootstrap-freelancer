@@ -44,6 +44,7 @@ main{
 /* prima sezione head */
 .sezioneColore{
     background-color: var(--coloreMainHead);
+    color: white;
 }
 
 .sezioneColore .contImmagine{
@@ -74,6 +75,8 @@ main{
     background-color: var(--colorStar);
 }
 
+
+/* seconda sezione */
 .fa-star.black{
     color: var(--altezzaHeader);
 }
@@ -96,7 +99,11 @@ main p{
     border-radius: 12px;
 }
 
-
+/* terza serie */
+.sezioneColore.terza button{
+    color: white;
+    border: 1px solid white;
+}
 
 
 /* quarta sezione */
